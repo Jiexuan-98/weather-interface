@@ -1,0 +1,805 @@
+body{
+  background: #88604C;
+  background-image:url("../images/w2.jpeg");
+  background-position: 0% 0%;
+  background-size: 45%;
+  background-repeat: no-repeat;
+}
+.top{
+  display:grid;
+  grid-template-columns: 6fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "OCT locationicon US";
+  font-family: Aksara Bali Galang;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 46px;
+/* identical to box height */
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+}
+
+.OCT{
+  margin-top: 20px;
+  margin-left: 90px;
+}
+.locationicon{
+  margin-top: 33px;
+  margin-left: 150px;
+}
+.US{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.choose{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "hour-1 hour-2 hour-3 hour-4 hour-5";
+  font-family: Aksara Bali Galang;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 46px;
+/* identical to box height */
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+margin-top: 20px;
+margin-left: 130px;
+}
+a {
+    text-decoration: none;
+}
+.hour-1{
+  color: #FFFFFF;
+}
+.hour-2{
+  color: #FFFFFF;
+}
+.hour-3{
+  color: #FFFFFF;
+}
+.hour-4{
+  color: #FFFFFF;
+}
+.hour-5{
+  color: #FFFFFF;
+}
+.weekly{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "weekly weekly";
+  font-family: Aksara Bali Galang;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 54px;
+/* identical to box height */
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 25px;
+  margin-left: 650px;
+}
+.cards{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "day-1"
+  "day-2"
+  "day-3"
+  "day-4"
+  "day-5"
+  "day-6"
+  "day-7";
+  margin-top: -10px;
+  margin-left: 680px;
+}
+.day-1{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "Today"
+  "10/03"
+  "Light rain to sunny"
+  "Framethree"
+  "23~30°";
+  width: 164px;
+  height: 218px;
+
+  background: rgba(171, 157, 157, 0.5);
+border: 1px solid #764F40;
+box-sizing: border-box;
+box-shadow: 4px 4px 4px rgba(80, 36, 36, 0.25);
+border-radius: 7px;
+margin-top: 20px;
+margin-left: -30px;
+}
+.Framethree{
+  margin-top: -5px;
+  margin-left: 55px;
+}
+.l-11{
+  font-family: Aksara Bali Galang;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 46px;
+/* identical to box height */
+color: #FFFFFF;
+margin-top: 10px;
+margin-left: 55px;
+}
+.l-12{
+  font-family: Alef;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 14px;
+/* identical to box height */
+color: #DCD5D5;
+margin-top: -28px;
+margin-left: 60px;
+}
+.l-13{
+  font-family: Aksara Bali Galang;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 27px;
+/* identical to box height */
+color: #FFFFFF;
+margin-top: -8px;
+margin-left: 15px;
+}
+.l-14{
+font-family: Aksara Bali Galang;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 27px;
+/* identical to box height */
+color: #FFFFFF;
+margin-top: 0px;
+margin-left: 55px;
+}
+.day-2{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "Tomorrow"
+  "10/04"
+  "Light rain to cloudy"
+  "Framefive"
+  "23~32°";
+  width: 164px;
+  height: 218px;
+
+  background: rgba(171, 157, 157, 0.5);
+  border: 1px solid #764F40;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(80, 36, 36, 0.25);
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-left: -35px;
+}
+.Framefive{
+  margin-top: -5px;
+  margin-left: 65px;
+}
+.l-21{
+  font-family: Aksara Bali Galang;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 46px;
+/* identical to box height */
+color: #FFFFFF;
+margin-top: 10px;
+margin-left: 40px;
+}
+.l-22{
+  font-family: Alef;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 14px;
+/* identical to box height */
+color: #DCD5D5;
+margin-top: -28px;
+margin-left: 60px;
+}
+.l-23{
+  font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: -8px;
+  margin-left: 15px;
+}
+.l-24{
+  font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-left: 55px;
+}
+.day-3{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "Today"
+  "10/05"
+  "Light rain"
+  "Frametwo"
+  "24~32°";
+  width: 164px;
+  height: 218px;
+
+  background: rgba(171, 157, 157, 0.5);
+  border: 1px solid #764F40;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(80, 36, 36, 0.25);
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-left: -40px;
+}
+.Frametwo{
+  margin-top: -5px;
+  margin-left: 65px;
+}
+.l-31{
+  font-family: Aksara Bali Galang;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 46px;
+/* identical to box height */
+color: #FFFFFF;
+margin-top: 10px;
+margin-left: 60px;
+}
+.l-32{
+  font-family: Alef;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #DCD5D5;
+  margin-top: -28px;
+  margin-left: 60px;
+}
+.l-33{
+  font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: -8px;
+  margin-left: 45px;
+}
+.l-34{
+  font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-left: 55px;
+}
+.day-4{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "Today"
+  "10/06"
+  "Light rain to sunny"
+  "Framethreet"
+  "25~31°";
+  width: 164px;
+  height: 218px;
+
+  background: rgba(171, 157, 157, 0.5);
+  border: 1px solid #764F40;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(80, 36, 36, 0.25);
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-left: -45px;
+}
+.Framethreet{
+  margin-top: -5px;
+  margin-left: 55px;
+}
+.l-41{
+  font-family: Aksara Bali Galang;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 46px;
+/* identical to box height */
+color: #FFFFFF;
+margin-top: 10px;
+margin-left: 60px;
+}
+.l-42{
+  font-family: Alef;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #DCD5D5;
+  margin-top: -28px;
+  margin-left: 60px;
+}
+.l-43{
+  font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: -8px;
+  margin-left: 15px;
+}
+.l-44{
+  font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-left: 55px;
+}
+.day-5{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "Today"
+  "10/07"
+  "Light rain"
+  "Frametwot"
+  "24~31°";
+  width: 164px;
+  height: 218px;
+
+  background: rgba(171, 157, 157, 0.5);
+  border: 1px solid #764F40;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(80, 36, 36, 0.25);
+  border-radius: 7px;
+  margin-top: -50px;
+  margin-left: -30px;
+  margin-top: 20px;
+  margin-left: -30px;
+}
+.Frametwot{
+  margin-top: -5px;
+  margin-left: 65px;
+}
+.l-51{
+  font-family: Aksara Bali Galang;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 46px;
+/* identical to box height */
+color: #FFFFFF;
+margin-top: 10px;
+margin-left: 60px;
+}
+.l-52{
+  font-family: Alef;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #DCD5D5;
+  margin-top: -28px;
+  margin-left: 60px;
+}
+.l-53{
+  font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: -8px;
+  margin-left: 45px;
+}
+.l-54{
+  font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-left: 55px;
+}
+.day-6{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "Today"
+  "10/08"
+  "Light rain"
+  "Frametwoth"
+  "23~31°";
+  width: 164px;
+  height: 218px;
+
+  background: rgba(171, 157, 157, 0.5);
+  border: 1px solid #764F40;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(80, 36, 36, 0.25);
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-left: -35px;
+}
+.Frametwoth{
+  margin-top: -5px;
+  margin-left: 65px;
+}
+.l-61{
+  font-family: Aksara Bali Galang;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 46px;
+/* identical to box height */
+color: #FFFFFF;
+margin-top: 10px;
+margin-left: 70px;
+}
+.l-62{
+  font-family: Alef;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #DCD5D5;
+  margin-top: -28px;
+  margin-left: 60px;
+}
+.l-63{
+  font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: -8px;
+  margin-left: 45px;
+}
+.l-64{
+  font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-left: 55px;
+}
+.day-7{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "Today"
+  "10/09"
+  "Light rain"
+  "Framethreeth"
+  "23~31°";
+  width: 164px;
+  height: 218px;
+
+  background: rgba(171, 157, 157, 0.5);
+  border: 1px solid #764F40;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(80, 36, 36, 0.25);
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-left: -45px;
+}
+.Framethreeth{
+  margin-top: -5px;
+  margin-left: 65px;
+}
+.l-71{
+  font-family: Aksara Bali Galang;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 46px;
+/* identical to box height */
+color: #FFFFFF;
+margin-top: 10px;
+margin-left: 60px;
+}
+.l-72{
+  font-family: Alef;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #DCD5D5;
+  margin-top: -28px;
+  margin-left: 60px;
+}
+.l-73{
+  font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: -8px;
+  margin-left: 45px;
+}
+.l-74{
+  font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-left: 55px;
+}
+.tipbox{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "It will be rainy this week,"
+  "please dress appropriately！";
+  width: 200px;
+  height: 90px;
+
+  background: #D3BFB5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 13px;
+  margin-top: -90px;
+  margin-left: 1200px;
+}
+.tipone{
+  font-family: Aksara Bali Galang;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+color: #000000;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+margin-top: 20px;
+margin-left: 10px;
+}
+@media only screen and (max-width: 1300px){
+  .weekly{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "weekly weekly";
+    font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 54px;
+  /* identical to box height */
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 25px;
+    margin-left: 200px;
+  }
+  .cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "day-1"
+    "day-2"
+    "day-3"
+    "day-4"
+    "day-5"
+    "day-6"
+    "day-7";
+    margin-top: 0px;
+    margin-left: 220px;
+  }
+  .tipbox{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "It will be rainy this week,"
+    "please dress appropriately！";
+    width: 200px;
+    height: 90px;
+
+    background: #D3BFB5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    margin-top: -90px;
+    margin-left: 1080px;
+}
+}
+@media only screen and (max-width: 900px){
+  .weekly{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "weekly weekly";
+    font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 54px;
+  /* identical to box height */
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 25px;
+    margin-left: 60px;
+  }
+  .cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "day-1"
+    "day-2"
+    "day-3"
+    "day-4"
+    "day-5"
+    "day-6"
+    "day-7";
+    margin-top: 0px;
+    margin-left: 60px;
+  }
+  .tipbox{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "It will be rainy this week,"
+    "please dress appropriately！";
+    width: 200px;
+    height: 90px;
+
+    background: #D3BFB5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    margin-top: 50px;
+    margin-left: 680px;
+}
+@media only screen and (max-width: 600px){
+  .top{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "OCT"
+    "US";
+    font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 46px;
+  /* identical to box height */
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+  }
+  .OCT{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .locationicon{
+    margin-top: 33px;
+    margin-left: 18px;
+  }
+  .US{
+    margin-top: -40px;
+    margin-left: 40px;
+  }
+  .choose{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "hour-1 hour-2 hour-3 hour-4 hour-5";
+    font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 46px;
+  /* identical to box height */
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+  margin-top: 20px;
+  margin-left: 20px;
+  }
+  .weekly{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "weekly weekly";
+    font-family: Aksara Bali Galang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 54px;
+  /* identical to box height */
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 25px;
+    margin-left: 15px;
+  }
+  .cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "day-1"
+    "day-2"
+    "day-3"
+    "day-4"
+    "day-5"
+    "day-6"
+    "day-7";
+    margin-top: 0px;
+    margin-left: 45px;
+  }
+  .tipbox{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "It will be rainy this week,"
+    "please dress appropriately！";
+    width: 200px;
+    height: 90px;
+
+    background: #D3BFB5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    margin-top: 50px;
+    margin-left: 370px;
+  }
